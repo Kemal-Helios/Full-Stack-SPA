@@ -1,0 +1,28 @@
+// Variables
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+@import 'variables';
+
+@import '~vuetify/dist/vuetify.min.css';
+
+@import '~boxicons/css/boxicons.min.css';
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+*{
+    font-family: $font-family-sans-serif;
+}
+.theme--light.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+     background-color: transparent;
+}
+.v-btn:not(.v-btn--round).v-size--default {
+    height: auto !important;
+}
+
+.text-gray-600{
+    color: #718096 !important;
+}
